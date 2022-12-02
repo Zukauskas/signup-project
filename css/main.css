@@ -9,11 +9,29 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+}
+
+.bg-image {
+    background-image:linear-gradient(to right top, rgba(0, 88, 4, 0.603), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(20px);
 }
 
 .main-content{
     display: flex;
+    position: absolute;
+    z-index: 2;
 }
 
 .left-content {
