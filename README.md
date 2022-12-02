@@ -6,9 +6,10 @@ _Web Design Project_
 <br>
 <br>
 
-Design: ![DESIGN](./design.png)
+Design inspiration: ![DESIGN](./design.png)
 
 <br>
+
 ## 🌟 About
 
 Simple SignUp form project using HTML and CSS. Leaning flex & positioning
