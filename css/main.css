@@ -75,8 +75,8 @@ body {
     font-size: 25px;
     line-height: 20px;
     align-self: flex-end;
-    padding-top: 25px;
-    padding-right: 25px;
+    padding-top: 30px;
+    padding-right: 30px;
     color: lightgray;
 }
 
@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 70%;
-    padding-top: 35px;
+    padding-top: 25px;
     gap:40px;
 }
 
