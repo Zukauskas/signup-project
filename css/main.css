@@ -6,7 +6,6 @@ body * {
 }
 
 body {
-    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +17,28 @@ body {
 }
 
 .left-content {
-    background-color: white;
-    height: 500px;
-    width: 300px;
+    background-image: linear-gradient(to right top, rgba(0, 88, 4, 0.603), rgba(0, 0, 0, 0.5) ), url(../img/main.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 400px;
     align-self: center;
+    position: relative;
+}
+
+.main-title {
+    position: absolute;
+    font-size: 40px;
+    top: 50px;
+    left: 75px;
+    color: white;
+    font-weight: 100;
+}
+
+.policy-and-terms {
+    position: absolute;
+    left: 75px;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .right-content {
@@ -30,7 +47,7 @@ body {
     background-color: aqua;
     align-items: center;
     height: 600px;
-    width: 600px;
+    width: 500px;
 }
 
 .inputs {
