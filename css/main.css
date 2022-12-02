@@ -135,3 +135,27 @@ body {
     color:rgb(0, 88, 4);
     font-weight: bold;
 }
+
+@media (max-width:850px) {
+
+    .main-content {
+        flex-direction: column;
+        }
+    
+    .left-content {
+        height: 200px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .main-content, .right-content {
+        width: 100%;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+    }
+}
