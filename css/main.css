@@ -127,7 +127,7 @@ body {
     gap: 20px;
 }
 
-.form-buttons > input {
+.form-buttons > .submit-button {
     background-color: rgb(0, 88, 4);
     font-size: inherit;
     font-weight: bold;
